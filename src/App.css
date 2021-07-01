@@ -1,38 +1,65 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.backgroundImage {
+	background-image: url(./Components/lukasz-rawa-3fMLvhpc8Tw-unsplash.jpg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+	background: rgb(178, 247, 228);
+	background: linear-gradient(
+		126deg,
+		rgba(178, 247, 228, 1) 17%,
+		rgba(19, 106, 101, 1) 100%
+	);
+}
+.site-footer {
+	background: rgb(178, 247, 228);
+	background: radial-gradient(
+		circle,
+		rgba(178, 247, 228, 1) 37%,
+		rgba(19, 106, 101, 1) 100%
+	);
+	padding: 20px 0;
+	margin-top: auto;
+	opacity: 0.6;
+}
+.ul {
+	list-style-type: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.listcheck {
+	font-size: xx-large;
+	color: rgb(197, 68, 90);
+}
+.card {
+	margin: 2rem;
+	padding: 1rem;
+	box-shadow: 3px 3px 8px teal;
+	border-radius: 14px;
+	background-color: white;
+	text-align: left;
+}
+.smallCard {
+	margin: 1rem;
+	padding: 1rem 1rem 1rem 6rem;
+	box-shadow: 1px 5px 10px grey;
+	background-color: white;
+	text-align: left;
+}
+.cardHeader {
+	font-size: 3rem;
+	margin: 1rem;
+	padding: 1rem;
+	color: white;
+	text-align: center;
+	background-color: teal;
+}
+.containerBottom {
+	margin-bottom: 4em;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.underline {
+	text-decoration: underline double grey;
 }
